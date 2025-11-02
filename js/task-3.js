@@ -1,7 +1,7 @@
 function checkForSpam(message) {
     const normalized = message.toLowerCase();
-    return normalized.incluends(`spam`)
-        || normalized.incluends(`sale`);
+    return normalized.includes(`spam`)
+        || normalized.includes(`sale`);
 }
 
 
